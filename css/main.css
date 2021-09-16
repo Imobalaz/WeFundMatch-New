@@ -1,0 +1,159 @@
+.font-mont {
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    background: white;
+}
+
+.body-rest {
+    background: #E5E5E5;
+}
+
+.setup-body {
+    background: white;
+}
+
+.progressbar {
+    counter-reset: step;
+}
+
+.progressbar li{
+    list-style-type: none;
+    width: 25%;
+    position: relative;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.progressbar li::before {
+    content: "0" counter(step);
+    counter-increment: step;
+    width: 59px;
+    height: 59px;
+    border: 2px solid #DDDFE1;
+    display: block;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border-radius: 50%;
+    background: white;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 54px;
+}
+
+.progressbar li::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background:linear-gradient(0deg, #EAEDEF, #EAEDEF), #2290FF;
+    left: -50%;
+    top: 24.5px;
+}
+
+.progressbar li:first-child::after {
+    content: none;
+}
+
+.progressbar li.active + li::before {
+    background: linear-gradient(0deg, #EAEDEF, #EAEDEF), #FFFFFF;
+    color: rgba(127, 99, 244, 1);
+    border: none;
+}
+
+.progressbar li.active::before {
+    border: none;
+    background: linear-gradient(0deg, #263D8A, #263D8A), #2290FF;
+    color: white;
+}
+
+
+.font p {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.form-label {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+input[placeholder] {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.form-check-label {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.btn {
+    background: rgba(38, 61, 138, 1);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0px;
+    text-align: center;
+    color: white;
+}
+
+.btn-grey {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #F3F3F3;
+    color: rgba(106, 112, 126, 1);
+
+}
+
+.form-select {
+    width: 94px;
+}
+
+.select-div > :first-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.select-div > :last-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.select-div > :first-child + .form-select {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    width: 100px
+}
+
+.submit {
+    text-decoration: none;
+    color: white;
+}

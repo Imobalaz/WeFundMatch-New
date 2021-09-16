@@ -1,0 +1,87 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Verify Account</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Inter|Playfair+Display|Montserrat">
+        <link rel="stylesheet" href="http://fonts.cdnfonts.com/css/nanotech-llc">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        
+        <div class="header">
+            <div class="container-fluid">
+                <img class="ms-5 ps-5" src="images/logo.png">
+            </div>
+        </div>
+
+        <div class="body-rest p-3">
+            <div class="container">
+                <div class="setup-body pb-5 m-3 pt-4">
+                    <ul class="progressbar d-flex">
+                        <li class="active">Setup your account</li>
+                        <li class="active">Verify your identity</li>
+                        <li>Fund your wallet</li>
+                        <li>Invest in a campaign</li>
+                    </ul>
+                    
+                    <div class="form m-5 font-mont row">
+                        <p>Enter your personal details to complete your profile</p>
+                        <form class="col-6 px">
+                            <div class="my-4">
+                                <label for="firstName" class="form-label">First Name*</label>
+                                <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp" placeholder="Adeolu">
+                            </div>
+
+                            <div class="">
+                                <label for="houseAddress" class="form-label">House Address*</label>
+                                <input type="text" class="form-control" id="houseAddress" aria-describedby="addressHelp" placeholder="">
+                            </div>
+
+                            <div class="my-4">
+                                <label for="phoneNumber" class="form-label">Phone Number*</label>
+                                <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneNumberHelp" placeholder="">
+                            </div>
+
+                            <label class="form-label">Date Of Birth*</label>
+                            <div class="d-flex select-div">
+                                <select class="form-select form" aria-label=".form-select">
+                                    <option selected>Day</option>
+                                </select>
+                                <select class="form-select form" aria-label=".form-select">
+                                    <option selected>Month</option>
+                                </select>
+                                <select class="form-select form" aria-label=".form-select">
+                                    <option selected>Year</option>
+                                </select>
+                            </div>
+
+                            <div class="form-check my-3">
+                                <input type="checkbox" class="form-check-input" id="check1">
+                                <label class="form-check-label" for="check1">I have read and I agree to the <a href="#">Investors Agreement</a>.</label>
+                            </div>
+                        </form>
+
+                        <form class="col-6">
+                            <div class="mt-4">
+                                <label for="lastName" class="form-label">Last Name*</label>
+                                <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp" placeholder="Bakare">
+                            </div>
+                        </form>
+
+                        <div class="text-end">
+                            <button type="button" href="#" class="btn me-2 px-5 btn-grey">Previous</button>
+                            <button type="submit" class="btn px-1">Complete Account Setup</button>
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>

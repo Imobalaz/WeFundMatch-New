@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-building-wide {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    left: 0px;
+    bottom: 0;
+}
+
+.hero-building-narrow {
+    position: absolute;
+    width: 408px;
+    height: auto;
+    right: 0;
+    bottom: 0;
+}
+
+.row {
+    --bs-gutter-x: 0;
+}
+
+.tower {
+    margin: 0;
+    background-image: url("/images/towers.png");
+    padding: 0;
+    height: 687px;
+}
+
+.company-texts div:first-child {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(38, 61, 138, 1);
+}
+
+.glass-house {
+    height: 568px;
+    background: url("/images/modern-house.png");
+}
+
+.font-nano {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(36, 62, 139, 1);
+
+}
+
+.col-6 + .text-end {
+    color: #243E8B;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0px;
+    
+}
+
+.details-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+    
+}

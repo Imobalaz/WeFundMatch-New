@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+}
+.font-poppins {
+    font-family: "Poppins", serif;
+}
+
+.font-nano {
+    font-family: "Nanotech LLC", sans-serif;
+}
+
+.font-inter {
+    font-family: "Inter", serif;
+}
+
+.font-play {
+    font-family: "Playfair Display", serif;
+}
+
+.white {
+    color: white;
+}
+
+.blue {
+    color: rgba(36, 62, 139, 1);
+}
+
+.header {
+    position: relative;
+    background: white;
+    z-index: 1;
+}
+.nav-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.deep-blue {
+    color: #061938;
+}
+
+.btn-reg {
+    border: 2px solid #263D8A;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn-reg:hover {
+    background: #eeeeee;
+}
+
+.btn {
+    background:#263D8A;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-nav {
+    font-weight: 700;
+}
+
+.hero {
+    background: #E2E2E4;
+}
+
+.herodiv {
+    height: 612px;
+}
+
+.hero-pic {
+    position: absolute;
+    left: -300px;
+    top: 50px;
+}
+
+.hero-illustration {
+    position: absolute;
+    left: -200px;
+    top: -65px;;
+    z-index: 0;
+}
+
+.tw-900 {
+    font-weight: 900;
+    font-style: normal;
+    font-size: 45px;
+    line-height: 70px;
+}
+
+span {
+    display: inline-block;
+}
+
+.font-play span {
+    color: rgba(36, 62, 139, 1);
+}
+
+.tsize-16 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.second-row {
+    padding: 60px;
+    position: relative;
+    z-index: 1;
+    background: white;
+}
+
+.second-row-first p, .third-row-first p {
+    padding: 0 220px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+}
+
+.second-row-first h3, .third-row-first h3 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: rgba(36, 62, 139, 1);
+}
+
+.circle-image {
+    height: 120px;
+    width: 122px;
+}
+
+.circle-image h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+}
+
+.circle-image p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.house-img {
+    height: 250px;
+    width: 330px;
+    margin: 0;
+}
+
+.buildingdiv {
+    width: 330px;
+    padding: 0 0 32px 0;
+    margin: 0 25px 90px;
+    background: #fafafa;
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.buildingdiv h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+}
+
+.dots {
+    top: 750px;
+    left: -40px;
+    z-index: -1;
+}
+
+.fourth-row {
+    background: url("/images/Background.png")
+    
+}
+
+.fourth-row-first h3 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 66px;
+    letter-spacing: 0px;
+}
+
+.fourth-row-first a {
+    background: white;
+    color: #263D8A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.3400000035762787px;
+    text-align: center;
+}
+
+.faq-text {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+}
+
+.faq-text + p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+}
+
+.nav-box {
+    box-sizing: border-box;
+    width: 239px;
+    border-radius: 8px;
+}
+
+.box-shadow {
+    box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.08);
+}
+
+.second-nav a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(21, 21, 23, 1);
+
+}
+
+.accordion-button {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    
+}
+
+.accordion-body {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    padding: 20px 50px;
+}
+
+.safety {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(136, 147, 148, 1);
+
+}
+
+.blue-div {
+    background: #263D8A;
+}
+
+.blue-div > div {
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: -0.7503158450126648px;
+}
+
+.footer-header {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.25px;
+}
+
+.footer-text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.15000000596046448px;
+}
+
+::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+}
+
+.subscribe {
+    background: rgba(48, 173, 227, 1);
+    text-decoration: none;
+
+}
+
+.white-background {
+    background: white;
+    
+}
+
+.with-border {
+    border-bottom: 1px solid #979797;
+}
+
+.rights {
+
+}
+
+.rights a{
+    text-decoration: none;
+    color: white;
+}
+
+.last-text {
+    padding-bottom: 70px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1344px) {
+    .hero-pic {
+        position: absolute;
+        width: 800px;
+        height: auto;
+        left: -250px;
+        top: 115px;
+    }
+    
+    .hero-illustration {
+        position: absolute;
+        width: 721.206px;
+        height: auto;
+        left: -200px;
+        top: 10px;;
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .house-img {
+        height: auto;
+        width: 250px;
+        margin: 0;
+    }
+    
+    .buildingdiv {
+        width: 250px;
+        padding: 0 0 32px 0;
+        margin: 0 25px 90px;
+        background: #fafafa;
+        box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+    }
+
+    .dots {
+        top: 870px;
+        left: -40px;
+        z-index: -1;
+    }
+    
+}

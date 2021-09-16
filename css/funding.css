@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.herodiv { 
+    height: 500px;
+}
+
+div a {
+    text-decoration: none;
+}
+
+.about-us {
+    
+}
+
+.about-us .text {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.font-nano {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: rgba(38, 61, 138, 1);
+}
+
+.bullet-dots {
+    position: absolute;
+    right: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+h2 + p { 
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+color: #7C8087;
+}
+
+b {
+    font-weight: bolder;
+}
+
+.arrow-1 {
+    position: absolute;
+    top: 40px;
+    left: 130px;
+}
+
+.arrow-2 {
+    position: absolute;
+    top: 40px;
+    left: 470px;
+}
+
+.arrow-3 {
+    position: absolute;
+    top: 180px;
+    left: 900px;
+}
+
+.arrow-4 {
+    position: absolute;
+    top: 340px;
+    left: 952px;
+}
+
+.arrow-5 {
+    position: absolute;
+    top: 300px;
+    left: 485px;
+}
+
+.arrow-6 {
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+
+@media screen and (max-width: 1199px) {
+    .arrow-1 {
+        position: absolute;
+        width: 180px;
+        top: 50px;
+        left: 120px;
+    }
+    
+    .arrow-2 {
+        position: absolute;
+        width: 190px;
+        top: 50px;
+        left: 430px;
+    }
+    
+    .arrow-3 {
+        position: absolute;
+        width: 190px;
+        top: 190px;
+        left: 780px;
+    }
+    
+    .arrow-4 {
+        position: absolute;
+        width: 145px;
+        top: 330px;
+        left: 825px;
+    }
+    
+    .arrow-5 {
+        position: absolute;
+        width: 240px;
+        top: 370px;
+        left: 435px;
+    }
+    
+    .arrow-6 {
+        position: absolute;
+        width: 240px;
+        top: 250px;
+        left: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 1040px) {
+    .arrow-3 {
+        position: absolute;
+        width: 160px;
+        top: 210px;
+        left: 770px;
+    }
+    
+    .arrow-4 {
+        position: absolute;
+        width: 122.2px;
+        top: 330px;
+        left: 809px;
+    }
+}

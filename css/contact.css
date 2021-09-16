@@ -1,0 +1,87 @@
+.first-text {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+label {
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+
+.form-img {
+    width: 32.88px;
+    height: 25.84px;
+}
+
+input {
+    border-radius: 50;
+}
+
+.upload div:first-child {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.upload div:first-child + div {
+    font-size: 10px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+.add-and-drop {
+    background: #FFFFFF;
+    border: 1px dashed #A1A7C4;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.add-and-drop button {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+}
+
+.add-and-drop div {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    
+}
+
+#purposeOfFunding, #businessBio {
+    height: 154px;
+   
+}
+
+[type=submit] {
+    width: 219px;
+}
+
+label span, .upload div:first-child span {
+    color: red;
+}
